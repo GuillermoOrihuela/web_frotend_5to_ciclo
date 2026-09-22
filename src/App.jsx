@@ -3,12 +3,12 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import Home from "./pages/Home.jsx";
-import Servicios from "./pages/Servicios.jsx";
-import Nosotros from "./pages/Nosotros.jsx";
-import Galeria from "./pages/Galeria.jsx";
-import Contacto from "./Pages/Contacto.jsx";
-import Reservar from "./pages/Reservar.jsx";
+import Home from "./pages/Home";
+import Servicios from "./pages/Servicios";
+import Nosotros from "./pages/Nosotros";
+import Galeria from "./pages/Galeria";
+import Contacto from "./pages/Contacto";
+import Reservar from "./pages/Reservar";
 
 import "./Css/App.css";
 
