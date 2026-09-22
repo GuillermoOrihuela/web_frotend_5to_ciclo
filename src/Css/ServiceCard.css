@@ -1,0 +1,78 @@
+.service-card {
+  background: white;
+  border: 1px solid #f1dfe4;
+  border-radius: 18px;
+  padding: 30px;
+
+  min-height: 285px;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(105, 65, 78, 0.1);
+}
+
+.service-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #fcecf1;
+  color: #d18fa0;
+
+  font-size: 25px;
+
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-family: "Playfair Display", serif;
+  color: #5b3b45;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #796970;
+  font-size: 14px;
+  line-height: 1.7;
+  flex: 1;
+}
+
+.service-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 22px;
+  padding-top: 16px;
+
+  border-top: 1px solid #f1dfe4;
+}
+
+.service-card-bottom span {
+  color: #b97588;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.service-card-bottom a {
+  color: #6d4c56;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.service-card-bottom a:hover {
+  color: #d18fa0;
+}

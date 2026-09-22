@@ -1,0 +1,92 @@
+.services-page {
+  padding-top: 78px;
+  background: #fff;
+}
+
+/* --- HEADER CON IMAGEN INTEGRADA --- */
+.page-header {
+  padding: 110px 6% 90px;
+  text-align: center;
+  
+  /* Imagen de fondo + Capa oscura (Overlay) para legibilidad */
+  background-image: linear-gradient(rgba(20, 10, 15, 0.55), rgba(20, 10, 15, 0.55)), url('../assets/images/Gemini_Generated_Image_wafsihwafsihwafs.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-header p {
+  color: #f3c2ce; /* Rosa claro brillante para que contraste sobre la imagen */
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.page-header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(45px, 6vw, 70px);
+  color: #ffffff; /* Texto blanco para resaltar */
+  margin-bottom: 18px;
+}
+
+.page-header h1 em {
+  color: #f7d6c8; /* Tono rosa/dorado suave para destacar la cursiva */
+}
+
+.page-header span {
+  color: #e2d8dc; /* Color suave/claro para la descripción */
+  font-size: 15px;
+}
+
+/* --- RESTO DE TU CÓDIGO PERMANECE IGUAL --- */
+.services-page-content {
+  width: min(1100px, 90%);
+  margin: auto;
+  padding: 90px 0;
+}
+
+.services-page-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.services-bottom {
+  text-align: center;
+  background: #fdf7f8;
+  padding: 80px 20px;
+}
+
+.services-bottom h2 {
+  font-family: "Playfair Display", serif;
+  color: #5a4049;
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.services-bottom p {
+  color: #796970;
+  margin-bottom: 25px;
+}
+
+.services-bottom a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #dda1b1;
+  padding: 13px 25px;
+  border-radius: 25px;
+}
+
+@media (max-width: 850px) {
+  .services-page-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .services-page-grid {
+    grid-template-columns: 1fr;
+  }
+}
