@@ -7,7 +7,7 @@ import Home from "./pages/Home.jsx";
 import Servicios from "./pages/Servicios.jsx";
 import Nosotros from "./pages/Nosotros.jsx";
 import Galeria from "./pages/Galeria.jsx";
-import Contacto from "./pages/Contacto.jsx";
+import Contacto from "./Pages/contacto.jsx";
 import Reservar from "./pages/Reservar.jsx";
 
 import "./Css/App.css";
