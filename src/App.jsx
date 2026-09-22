@@ -12,6 +12,7 @@ import Reservar from "./pages/Reservar";
 
 import "./Css/App.css";
 
+
 function App() {
   const getPage = () => {
     const hash = window.location.hash.replace("#", "");
