@@ -10,7 +10,7 @@ import Galeria from "./Pages/Galeria.jsx";
 import Contacto from "./Pages/Contacto.jsx";
 import Reservar from "./Pages/Reservar.jsx";
 
-import "./css/App.css";
+import "./css/App.Css";
 
 
 function App() {
